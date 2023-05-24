@@ -1,28 +1,28 @@
-/* header logo */
-.right-eye {
-    position: absolute;
-width: 7.87px;
-height: 11.85px;
-left: 194.71px;
-top: 35.02px;
-background: #FFFFFF;
+body {
+
 }
 
-.left-eye {
-    position: absolute;
-width: 7.87px;
-height: 11.85px;
-left: 175.99px;
-top: 35.02px;
-background: #FFFFFF;
+header {
+    
 }
 
-.smiley-mouth {
+.logo {
+
+}
+
+h1 {
+    /* Get schooled */
     position: absolute;
-width: 35.57px;
-height: 8.87px;
-left: 171.59px;
-top: 55.68px;
-background: #FFFFFF;
-transform: rotate(-7deg);
+    height: 151px;
+    left: 26.18%;
+    right: 26.32%;
+    top: calc(50% - 151px/2 - 251px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 151px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
 }
