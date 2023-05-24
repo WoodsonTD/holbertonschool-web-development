@@ -17,8 +17,9 @@ body {
     box-sizing: border-box;
 }
 
-.logo {
-
+.logo-img {
+    height: 30px;
+    margin-right: 15px;
 }
 
 h1 {
