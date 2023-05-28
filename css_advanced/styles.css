@@ -22,7 +22,6 @@ header {
     top: 35.02px;
 }
 
-
 /* smile school */
 .logo-img {
     background-image: url("/css_advanced/images/logo (2).png");
@@ -44,28 +43,119 @@ header {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1 {
-    /* Get schooled */
+.courses {
+    position: absolute;
+    height: 15px;
+    left: 0%;
+    right: 78.63%;
+    top: calc(50% - 15px/2);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFF;
+}
+
+.pricing {
+    position: absolute;
+    height: 15px;
+    left: 43.59%;
+    right: 37.18%;
+    top: calc(50% - 15px/2);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFF;
+}
+
+.login {
+    position: absolute;
+    height: 15px;
+    left: 85.47%;
+    right: 0%;
+    top: calc(50% - 15px/2);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFF
+}
+
+.getschooled {
     position: absolute;
     height: 151px;
-    left: 26.18%;
-    right: 26.32%;
-    top: calc(50% - 151px/2 - 251px);
-    font-family: 'Source Sans Pro';
+    left: 10%;
+    right: 10%;
+    top: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 120px;
-    line-height: 151px;
-    /* identical to box height */
     text-align: center;
     color: #FFFFFF;
 }
 
-.background {
+#smile {
     position: absolute;
-    width: 1440px;
-    height: 1093px;
-    left: 0px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 20px;
+    left: 41.18%;
+    right: 55.21%;
+    top: 53%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
+#grin {
+    position: absolute;
+    height: 20px;
+    left: 48.89%;
+    right: 48.61%;
+    top: 53%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#laugh {
+    position: absolute;
+    height: 20px;
+    left: 55.35%;
+    right: 41.25%;
+    top: 53%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main-button {
+    background: url("css_advanced/images/Button.png") no-repeat;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    left: 44.38%;
+    right: 44.38%;
+    top: 60%;
+    bottom: 57.64%;
+    background: transparent;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
