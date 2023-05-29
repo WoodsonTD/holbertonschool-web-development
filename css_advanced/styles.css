@@ -257,3 +257,102 @@ header {
     bottom: 0;
 }
 
+/* testimonial */
+.testimonial {
+    position: absolute;
+    width: 943px;
+    height: 160px;
+    left: 259px;
+    top: 1201px;
+}
+
+
+/* avatar */
+.avatar {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 259px;
+    top: 1201px;
+}
+
+
+/* mask */
+.mask {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 259px;
+    top: 1201px;
+    background: #FFFFFF;
+}
+
+/* Bitmap */
+.bitmap {
+    position: absolute;
+    width: 394px;
+    height: 341px;
+    left: 142px;
+    top: 1176px;
+    background: url(Image.png);
+}
+
+/* text */
+.text {
+    position: absolute;
+    width: 730px;
+    height: 158px;
+    left: 472px;
+    top: 1203px;
+}
+
+
+/* weather presenter */
+.weather-presenter {
+    position: absolute;
+    height: 34px;
+    left: 0%;
+    right: 77.4%;
+    top: calc(50% - 34px/2 + 62px);
+    font-family: "Source Pro" sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+/* identical to box height, or 153% */
+    color: #FFFFFF;
+}
+
+
+/* Person Name */
+.person-name {
+    position: absolute;
+    height: 34px;
+    left: 0%;
+    right: 82.33%;
+    top: calc(50% - 34px/2 + 28px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+/* identical to box height, or 153% */
+    color: #FFFFFF;
+}
+
+
+/* « Those tutorials ar */
+.tutorials {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 56.96%;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+/* or 153% */
+    color: #FFFFFF;
+}
